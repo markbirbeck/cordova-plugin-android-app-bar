@@ -18,6 +18,8 @@ Cordova apps don't have the app or action bar by default, so we must enable it. 
 <activity android:theme="@android:style/Theme.Material.Light" ...
 ```
 
+See the article [Using the Material Theme](https://developer.android.com/training/material/theme.html) for details of other Material Design themes.
+
 In the future we'll allow app bars to be enabled in other themes.
 
 This is the only change you'll need to make to your application, since everything else is configured when the plugin is installed. Just in case anything goes wrong though, here's a description of what other settings are changed.
