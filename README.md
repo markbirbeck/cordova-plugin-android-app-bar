@@ -24,13 +24,25 @@ In the future we'll allow app bars to be enabled in other themes.
 
 This is the only change you'll need to make to your application, since everything else is configured when the plugin is installed. Just in case anything goes wrong though, here's a description of what other settings are changed.
 
+### ShowTitle
+
+The app bar is not visible by default but this is changed by setting `ShowTitle`:
+
+```xml
+<preference name="ShowTitle" value="true" />
+```
+
+Note that this setting is already present in `plugin.xml` and is only discussed here for reference.
+
 ### Fullscreen
 
-Even when we have enabled the app bar it won't be visible, since Cordova sets itself up to be fullscreen. This can be disabled by adding a setting to `plugin.xml` which is then propagated to `config.xml`:
+Even when we have enabled the app bar it won't be visible, since Cordova sets itself up to be fullscreen. This can be disabled by adding by disabling the `Fullscreen` option:
 
 ```xml
 <preference name="Fullscreen" value="false" />
 ```
+
+Note that this setting is already present in `plugin.xml` and is only discussed here for reference.
 
 ## Adding the Plugin to Your Application
 

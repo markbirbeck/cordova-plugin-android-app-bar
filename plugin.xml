@@ -27,6 +27,11 @@
         Prevent Cordova from using the entire screen for the WebView:
       -->
       <preference name="Fullscreen" value="false" />
+
+      <!--
+        Show the title on the app bar, which makes the app bar visible:
+      -->
+      <preference name="ShowTitle" value="true" />
     </config-file>
 
     <!--
