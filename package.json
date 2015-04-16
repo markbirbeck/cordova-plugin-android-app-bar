@@ -1,10 +1,27 @@
 {
-  "name": "cordova-plugin-app-bar",
-  "version": "0.2.1",
+  "name": "cordova-plugin-android-app-bar",
+  "version": "0.2.2",
   "description": "A Cordova plugin which provides control over the app bar.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mark Birbeck <mark.birbeck@gmail.com> (http://markbirbeck.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "cordova": {
+    "id": "cordova-plugin-android-app-bar",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markbirbeck/cordova-plugin-android-app-bar.git"
+  },
+  "keywords": [
+    "cordova",
+    "actionbar"
+    "appbar",
+    "ecosystem:cordova",
+    "cordova-android"
+  ]
 }
