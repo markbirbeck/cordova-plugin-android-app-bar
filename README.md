@@ -47,7 +47,7 @@ Note that this setting is already present in `plugin.xml` and is only discussed 
 ## Adding the Plugin to Your Application
 
 ```shell
-cordova plugin add http://github.com/markbirbeck/cordova-plugin-app-bar.git
+cordova plugin add http://github.com/markbirbeck/cordova-plugin-android-app-bar.git
 ```
 
 ## Adding an Actions Menu to the App Bar
